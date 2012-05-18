@@ -25,9 +25,6 @@ public class GuiX extends JFrame implements ActionListener {
 
 	private JPanel contentPane;
 
-	/**
-	 * Launch the application.
-	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -392,6 +389,7 @@ public class GuiX extends JFrame implements ActionListener {
 				btn8.setEnabled(false);
 				btn9.setEnabled(false);
 				btnKraj.setEnabled(false);
+				mntmPrikaziSveRezultate.setEnabled(false);
 			}
 		});
 		mnFile.add(menuIgra);
