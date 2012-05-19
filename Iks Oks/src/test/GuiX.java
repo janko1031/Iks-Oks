@@ -390,6 +390,7 @@ public class GuiX extends JFrame implements ActionListener {
 				btn9.setEnabled(false);
 				btnKraj.setEnabled(false);
 				mntmPrikaziSveRezultate.setEnabled(false);
+				mntmIgrajPonovo.setEnabled(false);
 			}
 		});
 		mnFile.add(menuIgra);
